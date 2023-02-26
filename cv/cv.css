@@ -1,0 +1,80 @@
+/* cv css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lora', serif;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(27, 60, 109);
+    padding: 30px;
+    color: rgb(189, 203, 245)
+
+}
+.right {
+	position: initial;
+	background-color: rgb(215, 234, 250);
+	padding: 30px;
+
+}
+.image, .contacto, .habilidades, .idiomas, .intereses, .title,
+.perfil, .experiencia, .educacion, .cursos {
+	margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(27, 60, 109);
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(27, 60, 109);
+  color: white;
+}
+
+/* Deje button mail y phone para poder poner link directo a chat y link a enviar mail */
+.button_mail {
+    font-size:20px;
+    cursor: not-allowed;
+} 
+
+.button_phone { 
+    font-size:30px;
+    cursor: not-allowed;      
+}
+
+.button_direccion {
+    font-size:24px
+    
+}
+    
+
+/*
+h2 {
+	text-decoration: underline;
+}
+*/
+
+h3 {
+    margin-top: 5px;
+	
+}
